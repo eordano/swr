@@ -4,6 +4,7 @@
   "description": "React Hooks library for remote data fetching",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "modules": "./dist/index.d.ts",
   "files": [
     "dist/**"
   ],
@@ -13,6 +14,7 @@
   "scripts": {
     "dev": "now dev",
     "build": "tsc",
+    "build:umd": "tsc -p tsconfig.umd.json",
     "watch": "tsc --watch",
     "types:check": "tsc --noEmit",
     "format": "prettier --write '{src,test,examples}/**/*.{ts,tsx}'",
