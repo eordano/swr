@@ -4,9 +4,9 @@
   "description": "React Hooks library for remote data fetching",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "modules": "./dist/index.d.ts",
   "files": [
-    "dist/**"
+    "dist/**",
+    "umd/**"
   ],
   "repository": "zeit/swr",
   "homepage": "https://swr.now.sh",
